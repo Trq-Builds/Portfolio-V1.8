@@ -64,6 +64,7 @@ Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l�
 ---
 
 * `🤖` **︲Bolt.Mew** ︲[`🌐`](https://bolt.new/)
+* * `🤖` **︲Claude** ︲[`🌐`](https://claude.ai/)
 * `📄` **︲Documents d’annexes fournis**
 * `🪨` **︲FMHY** ︲[`🌐`](https://smiley.cool/emoji-list.php)
 * `🤖` **︲GPT-5** ︲[`🌐`](https://chatgpt.com/)
