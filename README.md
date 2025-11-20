@@ -59,7 +59,6 @@ Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l�
 
 ## `🧰`︲Outils et Ressources utilisés.
 
----
 
 > [!TIP]
 > Vous trouverez ici la liste de tous les outils, ressources et services utilisés pour la création de ce portfolio.  
