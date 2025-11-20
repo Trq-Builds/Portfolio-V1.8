@@ -64,7 +64,6 @@ Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l�
 > Vous trouverez ici la liste de tous les outils, ressources et services utilisés pour la création de ce portfolio.  
 > Les liens correspondants sont accessibles en cliquant sur l’emoji : `🌐`.
 
----
 
 - `🌐`︲**Source:** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
 
