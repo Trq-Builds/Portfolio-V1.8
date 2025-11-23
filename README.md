@@ -64,16 +64,15 @@ Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l�
 > Vous trouverez ici la liste de tous les outils, ressources et services utilisés pour la création de ce portfolio.  
 > Les liens correspondants sont accessibles en cliquant sur l’emoji : `🌐`.
 
-- ` 🌐 `**︲Source:** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
-* ` 📄 ` **︲Documents d’annexes fournis**
-* ` 🤖 ` **︲GPT-5** ︲[`🌐`](https://chatgpt.com/)
-* ` 🤖 ` **︲ClaudeAI** ︲[`🌐`](https://claude.ai/)
-* ` 🌐 ` **︲VisualStudioCode (IDE)** ︲[`🌐`](https://code.visualstudio.com/)
-* ` 🌐 ` **︲Netlifly** ︲[`🌐`](https://app.netlify.com/)
-* ` 😺 ` **︲GitHub Dekstop** ︲[`🌐`](https://github.com/apps/desktop)
-* ` 🤖⚡ ` **︲lmarena.ai** ︲[`🌐`](https://lmarena.ai/)
+- ` 📄 ` **︲Documents d’annexes fournis**
 
+- ` 🤖 ` **︲Claude-sonnet-4-5-20250929-thinking-32k** ︲[`🌐`](https://claude.ai/)
+- ` 😺 ` **︲GitHub Dekstop** ︲[`🌐`](https://github.com/apps/desktop)
+- ` 🤖 ` **︲GPT-5** ︲[`🌐`](https://chatgpt.com/)
+- ` 🤖⚡ ` **︲lmarena.ai** ︲[`🌐`](https://lmarena.ai/)
+- ` 🌐 ` **︲Netlifly** ︲[`🌐`](https://app.netlify.com/)
+- ` 🌐 ` **︲Source:** codewithsadee/vcard-personal-portfolio ︲[`🌐`](https://github.com/codewithsadee/vcard-personal-portfolio)
+- ` 🌐 ` **︲VisualStudioCode (IDE)** ︲[`🌐`](https://code.visualstudio.com/)
 
-  
 --- 
 
