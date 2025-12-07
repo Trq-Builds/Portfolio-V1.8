@@ -69,28 +69,6 @@
 
 ---
 
-## ` 🌐 `︲Déploiement sur Netlify.
-
----
-
-> [!TIP]
-> **Méthode 1 — Via GitHub :**
-> 1. Crée un dépôt GitHub et pousse le contenu du dossier `public/` à la racine.  
-> 2. Sur [Netlify](https://www.netlify.com/), connecte ton dépôt GitHub.  
-> 3. Dans les paramètres de build, renseigne `public` comme **Publish directory**.  
-> 4. Déploie le site : Netlify gérera automatiquement le HTTPS et le lien public.
-
-> [!TIP]
-> **Méthode 2 — Via Drag & Drop :**
-> 1. Compresse le contenu du dossier `public/` en `.zip`.  
-> 2. Glisse le `.zip` directement sur la page **Sites** de Netlify.  
-> 3. Attends la fin du déploiement → ton portfolio est en ligne.  
-
-Le fichier `netlify.toml` inclus gère la configuration de base (`publish = "public"`).  
-Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l’emploi.
-
----
-
 ## ` 🧰 `︲Outils et Ressources utilisés.
 
 
@@ -114,6 +92,7 @@ Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l�
 - ` 🌐 ` **︲Repo Tree Generator** [`🌐`](https://ascii-repotree.vercel.app/generator)
 
 --- 
+
 
 
 
