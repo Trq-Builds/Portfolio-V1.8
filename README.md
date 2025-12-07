@@ -23,29 +23,29 @@
 `🔩`︲**Arborescence ASCII :**
 
 ```markdown
-2025-Portfolio-V1.4/
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css           # Feuille de style unique
-│   ├── images/
-│   │   ├── icon-app.svg        # Icône applications
-│   │   ├── icon-design.svg     # Icône design
-│   │   ├── icon-dev.svg        # Icône développement
-│   │   ├── icon-photo.svg      # Icône photo
-│   │   ├── icon-quote.svg      # Icône citation
-│   │   ├── logo.svg            # Logo principal
-│   │   ├── logo.ico            # Favicon
-│   │   └── my-avatar.png       # Photo de profil
-│   └── js/
-│       ├──script.js           # Scripts principaux
-|       └── theme-toggle.js    # Mode Jour/Nuit
-│
-├── index.html                  # Page unique (SPA)
-├── README.md                   # Documentation
-├── .gitignore                  # Fichiers Git ignorés
-└── index.txt                   # Contenu textuel (structure)
-
+├── assets
+│   ├── css
+│   │   └── style.css          # Feuille de style principale (Design, Layout & Thème sombre)
+│   ├── images
+│   │   ├── icon-app.svg       # Icônes pour la section Services
+│   │   ├── icon-design.svg
+│   │   ├── icon-dev.svg
+│   │   ├── icon-photo.svg
+│   │   ├── icon-quote.svg
+│   │   ├── logo.ico           # Favicon (Icône affichée dans l'onglet du navigateur)
+│   │   ├── logo.svg           # Logo vectoriel
+│   │   ├── my-avatar.png      # Ta photo de profil (Sidebar)
+│   │   ├── project-1.svg      # Images miniatures des projets Portfolio
+│   │   └── project-2.svg
+│   └── js
+│       ├── data.js            # Base de données (Textes, CV, Projets) -> C'est ici que tu modifies le contenu
+│       ├── main.js            # Moteur du site : Génère le HTML, gère la navigation et les filtres
+│       ├── script.js          # Fichier script secondaire (ou backup/ancien code)
+│       └── theme-toggle.js    # Gestion du bouton Jour/Nuit (si non intégré directement dans index.html)
+├── .gitignore                 # Liste des fichiers ignorés par Git
+├── index.html                 # Structure principale (Le squelette de la page qui reçoit le contenu)
+├── index.txt                  # Fichier texte (Notes, brouillon ou contenu brut)
+└── README.md                  # Documentation du projet pour le dépôt GitHub
 ```
 
 ---
@@ -116,4 +116,5 @@ Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l�
 - ` 🌐 ` **︲VisualStudioCode (`IDE`)** ︲[`🌐`](https://code.visualstudio.com/)
 
 --- 
+
 
