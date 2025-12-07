@@ -65,6 +65,7 @@
 
 `🚧`︲**Limitations actuelles :**
 - Section Portfolio à remplir avec les projets
+- Rendre la section Projets plus Jolie.
 - Multiples fix à faire question QoL.
 
 ---
@@ -92,6 +93,7 @@
 - ` 🌐 ` **︲Repo Tree Generator** [`🌐`](https://ascii-repotree.vercel.app/generator)
 
 --- 
+
 
 
 
