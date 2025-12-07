@@ -61,11 +61,11 @@
 `⚡`︲**Architecture :**
 - Fichier CSS **unique** (non modularisé) intégrant responsive et animations.
 - Navigation par onglets avec système de filtrage pour le portfolio.
-- Hébergement prévu sur [Netlify](https://www.netlify.com/) avec déploiement automatique.
+- Hébergement prévu sur [Netlify](https://www.netlify.com/) avec déploiement ultra rapide.
 
 `🚧`︲**Limitations actuelles :**
-- Section Portfolio vide (en attente de projets...)
-- Responsive à Fix sur téléphone bouton Jour/Nuit mal placé...
+- Section Portfolio à remplir avec les projets
+- Multiples fix à faire question QoL.
 
 ---
 
@@ -114,6 +114,7 @@ Aucune dépendance, aucun build : le site est **100 % statique** et prêt à l�
 - ` 🌐 ` **︲Repo Tree Generator** [`🌐`](https://ascii-repotree.vercel.app/generator)
 
 --- 
+
 
 
 
