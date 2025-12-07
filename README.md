@@ -59,12 +59,12 @@
 * `📜` ︲**JavaScript vanilla** pour navigation et filtres (sans dépendances).
 
 `⚡`︲**Architecture :**
-- Fichier CSS **unique** (non modularisé) intégrant responsive et animations.
-- Navigation par onglets avec système de filtrage pour le portfolio.
-- Hébergement prévu sur [Netlify](https://www.netlify.com/) avec déploiement ultra rapide.
+- `🎨`︲Fichier CSS **unique** (non modularisé) intégrant responsive et animations.
+- `📐`︲Navigation par onglets avec système de filtrage pour le portfolio.
+- ` 🟢 `︲Hébergement prévu sur [Netlify](https://www.netlify.com/) avec déploiement ultra rapide.
 
 `🚧`︲**Limitations actuelles :**
-- ` 🟡 ` Section Portfolio à remplir avec les projets
+- ` 🟡 `︲Section Portfolio à remplir avec les projets
 - ` 🟡 `︲Rendre la section Projets plus Jolie.
 - ` 🟡 `︲Multiples fix à faire question QoL.
 
@@ -93,6 +93,7 @@
 - ` 🌐 ` **︲VisualStudioCode (`IDE`)** ︲[`🌐`](https://code.visualstudio.com/)
 
 --- 
+
 
 
 
