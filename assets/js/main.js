@@ -82,18 +82,7 @@ function loadProfile() {
 function loadAbout() {
   render('.about-text', aboutData.text);
 
-  const servicesHTML = aboutData.services.map(service => `
-    <li class="service-item">
-      <div class="service-icon-box">
-        <img src="${service.icon}" alt="icon" width="40">
-      </div>
-      <div class="service-content-box">
-        <h4 class="h4 service-item-title">${service.title}</h4>
-        <p class="service-item-text">${service.text}</p>
-      </div>
-    </li>
-  `).join('');
-  render('.service-list', servicesHTML);
+  ;
 }
 
 function loadResume() {
