@@ -93,7 +93,6 @@
 - ` 🌐 ` **︲Code Source:** codewithsadee/vcard-personal-portfolio ︲[`🌐`](https://github.com/codewithsadee/vcard-personal-portfolio)
 - ` 🤖 ` **︲Gemini 3.0 PRO** ︲[`🌐`](https://gemini.google.com/app)
 - ` 😺 ` **︲GitHub Dekstop** ︲[`🌐`](https://github.com/apps/desktop)
-- ` 😺 ` **︲GitHub Dekstop** ︲[`🌐`](https://github.com/apps/desktop)
 - ` 🤖 ` **︲GPT-5** ︲[`🌐`](https://chatgpt.com/)
 - ` 🤖 ` **︲GPT-5.1** ︲[`🌐`](https://chatgpt.com/)
 - ` 🤖 ` **︲lmarena.ai** ︲[`🌐`](https://lmarena.ai/)
@@ -102,6 +101,7 @@
 - ` 🌐 ` **︲VisualStudioCode (`IDE`)** ︲[`🌐`](https://code.visualstudio.com/)
 
 --- 
+
 
 
 
