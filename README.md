@@ -215,7 +215,15 @@ style.css
 - ` 🌐 ` **︲RepoTreeGenerator** ︲[`🌐`](https://ascii-repotree.vercel.app/generator)
 - ` 🌐 ` **︲VisualStudioCode** ︲[`🌐`](https://code.visualstudio.com/)
 
---- 
+---
+
+Notes : + Minification CSS/JS (build process)
++ Lazy loading des images
++ Service Worker (PWA)
++ Ajout de TypeScript pour typage
++ Tests unitaires (Jest)
++ Versioning des assets (cache busting)
+
 
 
 
