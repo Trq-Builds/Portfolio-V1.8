@@ -190,7 +190,7 @@ style.css
 
 - ` 🟡 `︲**Rajouter une Rublique "Stage".**
 
-- ` 🟡 `︲**Ajout des Items suivants : TP-DNS, TP-KALI, Item-GLPI, Install-Debian, Install-Windows Server, dans la section "Projets" avec Documentation Technique .MD pour chaque Item.**
+- ` 🟡 `︲**Ajout des Items suivants : TP-DNS, TP-KALI, Item-GLPI, Install-Debian, Install-Windows-11-Server, Install Windows-11, dans la section "Projets" avec Documentation Technique .MD pour chaque Item.**
 
 ---
 
@@ -217,6 +217,7 @@ style.css
 - ` 🌐 ` **︲VisualStudioCode** ︲[`🌐`](https://code.visualstudio.com/)
 
 --- 
+
 
 
 
