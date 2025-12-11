@@ -54,12 +54,10 @@
 
 🔑︲Légende Rapide :
 
-| Icône | Signification |
-|-------|---------------|
-| 📦 | Dossier de ressources |
-| 🎨 | Apparence visuelle |
-| 🖼️ | Images et médias |
-| ⚙️ | Code qui fait fonctionner le site |
+📦︲Dossier de ressources.
+🎨︲Apparence visuelle.
+🖼️︲Images et médias.
+⚙️︲Code qui fait fonctionner le site.
 
 ```
 
@@ -217,6 +215,7 @@ style.css
 - ` 🌐 ` **︲VisualStudioCode** ︲[`🌐`](https://code.visualstudio.com/)
 
 --- 
+
 
 
 
