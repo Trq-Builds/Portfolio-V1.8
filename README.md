@@ -217,7 +217,7 @@ style.css
 
 ---
 
-Notes :
+Notes pour moi :
 + Minification CSS/JS (build process)
 + Lazy loading des images
 + Service Worker (PWA)
@@ -226,6 +226,7 @@ Notes :
 + Versioning des assets (cache busting)
 
 ---
+
 
 
 
