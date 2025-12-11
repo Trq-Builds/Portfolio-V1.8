@@ -162,7 +162,6 @@ style.css
 
 ---
 
-```
 `🚀` ︲**Technique Résumée :**
 
 ```markdown
@@ -218,6 +217,7 @@ style.css
 - ` 🌐 ` **︲VisualStudioCode** ︲[`🌐`](https://code.visualstudio.com/)
 
 --- 
+
 
 
 
