@@ -50,7 +50,7 @@
 ├── .gitignore                 # Liste des fichiers à ne pas envoyer sur GitHub.
 ├── index.html                 # Page principale du site (la base sur laquelle tout s'affiche).
 ├── index.txt                  # Notes personnelles / brouillon.
-└── README.md                  # Mode d'emploi du projet pour les visiteurs GitHub.
+└── README.md                  # Ce que tu lis en ce moment même, pour les visiteurs ou les curieux :)
 
 --- 
 
@@ -219,6 +219,7 @@ style.css
 - ` 🌐 ` **︲VisualStudioCode** ︲[`🌐`](https://code.visualstudio.com/)
 
 --- 
+
 
 
 
