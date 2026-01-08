@@ -186,7 +186,7 @@ style.css
 
 - ` 🔴 `︲**Rendre la section Projets plus Jolie...**
 
-- ` 🔴 `︲**Ajout des Items suivants : TP-DNS, TP-KALI, Item-GLPI, Install-Debian, Install-Windows-11-Server, Install Windows-11, dans la section "Projets" avec __Documentation Technique .MD sur GitHub pour chaque Item__.**
+- ` 🟡 `︲**Ajout des Items suivants : TP-DNS, TP-KALI, Item-GLPI, Install-Debian, Install-Windows-11-Server, Install Windows-11, dans la section "Projets" avec __Documentation Technique .MD sur GitHub pour chaque Item__.**
 
 ---
 
@@ -213,5 +213,6 @@ style.css
 
 ---
 - ` 🌐 ` **︲Uiverse.io** ︲[`🌐`](https://uiverse.io/)
+
 
 
