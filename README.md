@@ -8,6 +8,10 @@
   </a>
 </p>
 
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 ---
 
 - ` 🎈 `︲**Version :** 1.8︲Réalisé dans le cadre du **BTS SIO - Option SISR (`Épreuve E5, Session 2026`)**
@@ -215,6 +219,7 @@ style.css
 - ` 🌐 ` **︲`VisualStudioCode`** ︲[`🌐`](https://code.visualstudio.com/)
 
 ---
+
 
 
 
