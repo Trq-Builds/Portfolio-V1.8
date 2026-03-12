@@ -217,9 +217,10 @@ style.css
 - ` 🌐 ` **︲`Netlifly.app`** ︲[`🌐`](https://app.netlify.com/)
 - ` 🌐 ` **︲`RepoTreeGenerator`** ︲[`🌐`](https://ascii-repotree.vercel.app/generator)
 - ` 🌐 ` **︲`Uiverse.io`** ︲[`🌐`](https://uiverse.io/)
-- ` 🌐 ` **︲`VisualStudioCode`** ︲[`🌐`](https://code.visualstudio.com/)
+- ` 🌐 ` **︲`VSCodium`** ︲[`🌐`](https://vscodium.com/)
 
 ---
+
 
 
 
