@@ -190,11 +190,9 @@ style.css
 
 ## ` 🔻 `︲**Améliorations prévues :**
 
-- ` 🔴 `︲Amélioration du design et de la mise en forme de la rubrique « Projets ».
-
 - ` 🟡 `︲Intégration de nouveaux items au sein de la section « Projets », incluant : TP-DNS, TP-KALI, Item-GLPI, Install-Debian, Install-Windows-11-Server et Install-Windows-11, accompagnés pour chacun d’une documentation technique au format Markdown (.MD) centralisée sur GitHub.
 
-- ` 🔴 `︲Évolution en cours du module « OUTILS » impliquant une réécriture technique, l’ajout de fonctionnalités et l’enrichissement de la documentation, incluant la création des rubriques « Certifications » et « Veille informatique », afin de pallier un contenu actuellement incomplet et insuffisamment détaillé.
+- ` 🟠 `︲Évolution en cours du module « OUTILS » impliquant une réécriture technique, l’ajout de fonctionnalités et l’enrichissement de la documentation, incluant la création des rubriques « Certifications » et « Veille informatique », afin de pallier un contenu actuellement incomplet et insuffisamment détaillé.
 
 ---
 
@@ -221,6 +219,7 @@ style.css
 - ` 🌐 ` **︲`VisualStudioCode`** ︲[`🌐`](https://code.visualstudio.com/)
 
 ---
+
 
 
 
