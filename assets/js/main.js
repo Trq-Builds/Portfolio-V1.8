@@ -1,12 +1,19 @@
 /*-----------------------------------*\
-  #MAIN.JS - Version avec Outils
+  #MAIN.JS
 \*-----------------------------------*/
 
-// ← MODIFIÉ : Ajout de outilsData dans l'import
-import { profileData, aboutData, resumeData, outilsData, portfolioData } from './data.js';
+import {
+  profileData,
+  aboutData,
+  resumeData,
+  outilsData,
+  certificationsData,
+  materielData,
+  portfolioData
+} from './data.js';
 
-// --- 1. FONCTIONS UTILITAIRES ---
-const getElement = (selector) => document.querySelector(selector);
+// --- UTILITAIRES ---
+const getElement    = (selector) => document.querySelector(selector);
 const getAllElements = (selector) => document.querySelectorAll(selector);
 
 const render = (selector, html) => {
@@ -14,18 +21,19 @@ const render = (selector, html) => {
   if (el) {
     el.innerHTML = html;
   } else {
-    console.warn(`Attention: L'élément "${selector}" n'a pas été trouvé dans le HTML.`);
+    console.warn(`Attention: "${selector}" introuvable dans le HTML.`);
   }
 };
 
-// --- 2. GENERATION NAVBAR ---
+// --- NAVBAR ---
 function loadNavbar() {
-  // ← MODIFIÉ : Ajout de "Outils" dans la navigation
   const pages = [
-    { label: "À propos", id: "about" },
-    { label: "Parcours", id: "resume" },
-    { label: "Outils", id: "outils" },  // ← NOUVELLE LIGNE
-    { label: "Portfolio", id: "portfolio" }
+    { label: "À propos",       id: "about" },
+    { label: "Parcours",       id: "resume" },
+    { label: "Outils",         id: "outils" },
+    { label: "Certifications", id: "certifications" },
+    { label: "Matériel",       id: "materiel" },
+    { label: "Portfolio",      id: "portfolio" }
   ];
 
   const navHTML = pages.map((page, index) => `
@@ -39,10 +47,14 @@ function loadNavbar() {
   render('.navbar-list', navHTML);
 }
 
-// --- 3. INJECTION DU PROFIL ---
+// --- PROFIL (sans localisation) ---
 function loadProfile() {
   const imgEl = getElement('.avatar-box img');
   if (imgEl) imgEl.src = profileData.avatar;
+  {
+  const isDark = document.body.classList.contains('dark-mode');
+  imgEl.src = isDark ? profileData.avatar : profileData.avatarLight;
+}
 
   const nameEl = getElement('.info-content .name');
   if (nameEl) nameEl.textContent = profileData.name;
@@ -50,20 +62,13 @@ function loadProfile() {
   const roleEl = getElement('.info-content .title');
   if (roleEl) roleEl.textContent = profileData.role;
 
-  // Contact
+  // Contacts — email uniquement (pas de localisation)
   const contactHTML = `
     <li class="contact-item">
       <div class="icon-box"><ion-icon name="mail-outline"></ion-icon></div>
       <div class="contact-info">
         <p class="contact-title">Email</p>
         <a href="mailto:${profileData.email}" class="contact-link">${profileData.email}</a>
-      </div>
-    </li>
-    <li class="contact-item">
-      <div class="icon-box"><ion-icon name="location-outline"></ion-icon></div>
-      <div class="contact-info">
-        <p class="contact-title">Localisation</p>
-        <address>${profileData.location}</address>
       </div>
     </li>
   `;
@@ -80,13 +85,13 @@ function loadProfile() {
   render('.social-list', socialHTML);
 }
 
-// --- 4. INJECTION CONTENU ---
+// --- À PROPOS ---
 function loadAbout() {
   render('.about-text', aboutData.text);
 }
 
+// --- PARCOURS ---
 function loadResume() {
-  // Education
   const eduHTML = resumeData.education.map(item => `
     <li class="timeline-item">
       <h4 class="h4 timeline-item-title">${item.school}</h4>
@@ -96,7 +101,6 @@ function loadResume() {
   `).join('');
   render('.education-list', eduHTML);
 
-  // Expérience
   const expHTML = resumeData.experience.map(item => `
     <li class="timeline-item">
       <h4 class="h4 timeline-item-title">${item.title}</h4>
@@ -106,7 +110,6 @@ function loadResume() {
   `).join('');
   render('.experience-list', expHTML);
 
-  // Skills
   const skillsHTML = resumeData.skills.map(skill => `
     <li class="skills-item">
       <div class="title-wrapper">
@@ -121,7 +124,7 @@ function loadResume() {
   render('.skills-list', skillsHTML);
 }
 
-// ← NOUVELLE FONCTION : Chargement des Outils
+// --- OUTILS ---
 function loadOutils() {
   const outilsHTML = outilsData.map(category => `
     <li class="tools-category">
@@ -142,15 +145,63 @@ function loadOutils() {
       </ul>
     </li>
   `).join('');
-  
   render('.tools-list', outilsHTML);
 }
 
+// --- CERTIFICATIONS ---
+function loadCertifications() {
+  const certHTML = certificationsData.map(category => `
+    <li class="tools-category">
+      <div class="title-wrapper">
+        <div class="icon-box"><ion-icon name="${category.icon}"></ion-icon></div>
+        <h3 class="h3">${category.title}</h3>
+      </div>
+      <ul class="tools-items">
+        ${category.items.map(item => `
+          <li class="tool-item">
+            <div class="tool-content">
+              <h4 class="h4">${item.name}</h4>
+              ${item.issuer ? `<p class="cert-meta"><ion-icon name="business-outline"></ion-icon> ${item.issuer}${item.date ? ` — ${item.date}` : ''}</p>` : ''}
+              <p class="tool-description">${item.description}</p>
+              ${item.link ? `<a href="${item.link}" class="tool-link" target="_blank">Voir la certification <ion-icon name="open-outline"></ion-icon></a>` : ''}
+            </div>
+          </li>
+        `).join('')}
+      </ul>
+    </li>
+  `).join('');
+  render('.certifications-list', certHTML);
+}
+
+// --- MATÉRIEL ---
+function loadMateriel() {
+  const materielHTML = materielData.map(category => `
+    <li class="tools-category">
+      <div class="title-wrapper">
+        <div class="icon-box"><ion-icon name="${category.icon}"></ion-icon></div>
+        <h3 class="h3">${category.title}</h3>
+      </div>
+      <ul class="tools-items">
+        ${category.items.map(item => `
+          <li class="tool-item">
+            <div class="tool-content">
+              <h4 class="h4">${item.name}</h4>
+              <p class="tool-description">${item.description}</p>
+              ${item.link ? `<a href="${item.link}" class="tool-link" target="_blank">Voir le produit <ion-icon name="open-outline"></ion-icon></a>` : ''}
+            </div>
+          </li>
+        `).join('')}
+      </ul>
+    </li>
+  `).join('');
+  render('.materiel-list', materielHTML);
+}
+
+// --- PORTFOLIO ---
 function loadPortfolio() {
-  // Projets
   const projectsHTML = portfolioData.map(project => `
     <li class="project-item active" data-category="${project.category}">
-      <a href="${project.link}">
+      <a href="${project.link}" target="_blank">
         <figure class="project-img">
           <div class="project-item-icon-box">
             <ion-icon name="eye-outline"></ion-icon>
@@ -164,7 +215,6 @@ function loadPortfolio() {
   `).join('');
   render('.project-list', projectsHTML);
 
-  // Filtres
   const categories = ["Tout", ...new Set(portfolioData.map(p => p.category))];
   const filterHTML = categories.map((cat, index) => `
     <li class="filter-item">
@@ -176,28 +226,21 @@ function loadPortfolio() {
   setupFilters();
 }
 
-// --- 5. LOGIQUE D'INTERACTION ---
+// --- INTERACTIONS ---
 function setupNavigation() {
   const navLinks = document.querySelectorAll('[data-nav-link]');
-  const pages = document.querySelectorAll('[data-page]');
-
-  console.log("Navigation chargée : ", navLinks.length, "boutons trouvés.");
+  const pages    = document.querySelectorAll('[data-page]');
 
   navLinks.forEach(link => {
     link.addEventListener('click', function () {
       const target = this.dataset.navLink.toLowerCase();
-      console.log("Clic sur :", target);
 
-      // 1. Activer le bouton
       navLinks.forEach(l => l.classList.remove('active'));
       this.classList.add('active');
 
-      // 2. Trouver et activer la page correspondante
       let pageFound = false;
       pages.forEach(page => {
-        const pageName = page.dataset.page.toLowerCase();
-        
-        if (pageName === target || (target === 'resume' && pageName === 'parcours')) {
+        if (page.dataset.page.toLowerCase() === target) {
           page.classList.add('active');
           window.scrollTo(0, 0);
           pageFound = true;
@@ -206,14 +249,14 @@ function setupNavigation() {
         }
       });
 
-      if (!pageFound) console.error("ERREUR : Aucune page trouvée pour l'ID : " + target);
+      if (!pageFound) console.error("Page introuvable pour : " + target);
     });
   });
 }
 
 function setupFilters() {
   const filterBtns = getAllElements('[data-filter]');
-  const projects = getAllElements('.project-item');
+  const projects   = getAllElements('.project-item');
 
   filterBtns.forEach(btn => {
     btn.addEventListener('click', function () {
@@ -221,7 +264,6 @@ function setupFilters() {
       this.classList.add('active');
 
       const category = this.getAttribute('data-filter');
-
       projects.forEach(project => {
         if (category === 'Tout' || project.getAttribute('data-category') === category) {
           project.classList.add('active');
@@ -234,13 +276,10 @@ function setupFilters() {
 }
 
 function setupSidebar() {
-  const sidebar = getElement('.sidebar');
+  const sidebar    = getElement('.sidebar');
   const sidebarBtn = getElement('[data-sidebar-btn]');
-
   if (sidebarBtn && sidebar) {
-    sidebarBtn.addEventListener('click', () => {
-      sidebar.classList.toggle('active');
-    });
+    sidebarBtn.addEventListener('click', () => sidebar.classList.toggle('active'));
   }
 }
 
@@ -250,10 +289,11 @@ document.addEventListener('DOMContentLoaded', () => {
   loadProfile();
   loadAbout();
   loadResume();
-  loadOutils();  // ← NOUVELLE LIGNE : Chargement des outils
+  loadOutils();
+  loadCertifications();
+  loadMateriel();
   loadPortfolio();
-  
+
   setupNavigation();
   setupSidebar();
 });
-

@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tariq LAABOUDI - Portfolio</title>
 
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="shortcut icon" id="favicon" href="./assets/images/logo-dark.ico" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/style.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,6 @@
 
       <div class="sidebar-info">
         <figure class="avatar-box">
-          <!-- L'image sera injectée ici -->
           <img src="" alt="Avatar" width="80" loading="lazy">
         </figure>
 
@@ -56,24 +55,22 @@
     <!-- ============== MAIN CONTENT ============== -->
     <div class="main-content">
 
-      <!-- 1. LA NAVBAR (DOIT ÊTRE EN PREMIER) -->
+      <!-- NAVBAR -->
       <nav class="navbar">
         <ul class="navbar-list">
           <!-- Généré par JS -->
         </ul>
       </nav>
 
-      <!-- 2. PAGE À PROPOS -->
+      <!-- 1. À PROPOS -->
       <article class="about active" data-page="about">
         <header>
           <h2 class="h2 article-title">À propos de moi</h2>
         </header>
-
-        <!-- Le texte injecté par JS ira ici -->
         <div class="about-text"></div>
       </article>
 
-      <!-- 3. PAGE PARCOURS -->
+      <!-- 2. PARCOURS -->
       <article class="resume" data-page="resume">
         <header>
           <h2 class="h2 article-title">Parcours</h2>
@@ -84,9 +81,7 @@
             <div class="icon-box"><ion-icon name="book-outline"></ion-icon></div>
             <h3 class="h3">Formation</h3>
           </div>
-          <ol class="timeline-list education-list">
-            <!-- Injecté par JS -->
-          </ol>
+          <ol class="timeline-list education-list"></ol>
         </section>
 
         <section class="timeline">
@@ -94,40 +89,59 @@
             <div class="icon-box"><ion-icon name="briefcase-outline"></ion-icon></div>
             <h3 class="h3">Expériences</h3>
           </div>
-          <ol class="timeline-list experience-list">
-            <!-- Injecté par JS -->
-          </ol>
+          <ol class="timeline-list experience-list"></ol>
         </section>
 
         <section class="skill">
           <h3 class="h3 skills-title">Compétences</h3>
-          <ul class="skills-list content-card">
-            <!-- Injecté par JS -->
-          </ul>
+          <ul class="skills-list content-card"></ul>
         </section>
       </article>
 
-      <!-- 4. PAGE OUTILS -->
+      <!-- 3. OUTILS -->
       <article class="outils" data-page="outils">
         <header>
           <h2 class="h2 article-title">Outils</h2>
         </header>
-
         <section class="tools">
           <p class="section-text">
             Découvrez les outils et ressources que j'utilise au quotidien pour mon organisation et mes projets informatiques.
           </p>
-          
           <ul class="tools-list"></ul>
         </section>
       </article>
 
-      <!-- 5. PAGE PORTFOLIO -->
+      <!-- 4. CERTIFICATIONS -->
+      <article class="certifications" data-page="certifications">
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+        <section class="tools">
+          <p class="section-text">
+            Certifications obtenues et formations en cours dans le domaine des systèmes, réseaux et cybersécurité.
+          </p>
+          <ul class="certifications-list tools-list"></ul>
+        </section>
+      </article>
+
+      <!-- 5. MATÉRIEL -->
+      <article class="materiel" data-page="materiel">
+        <header>
+          <h2 class="h2 article-title">Matériel</h2>
+        </header>
+        <section class="tools">
+          <p class="section-text">
+            Aperçu de mon setup hardware — poste de travail, périphériques et équipements réseau utilisés au quotidien.
+          </p>
+          <ul class="materiel-list tools-list"></ul>
+        </section>
+      </article>
+
+      <!-- 6. PORTFOLIO -->
       <article class="portfolio" data-page="portfolio">
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
         </header>
-
         <section class="projects">
           <ul class="filter-list"></ul>
           <ul class="project-list"></ul>
@@ -144,31 +158,32 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   <script>
-    // ================= THEME TOGGLE =================
     const themeToggle = document.getElementById('themeToggle');
+    if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
 
-    // Charger le thème
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme === 'dark') {
-      document.body.classList.add('dark-mode');
-    }
-
-    // Toggle
     themeToggle.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
+  document.body.classList.toggle('dark-mode');
+  localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
 
-      // Sauvegarde
-      localStorage.setItem(
-        'theme',
-        document.body.classList.contains('dark-mode') ? 'dark' : 'light'
-      );
-    });
+  const avatar = document.querySelector('.avatar-box img');
+  if (avatar) {
+    avatar.src = document.body.classList.contains('dark-mode')
+      ? './assets/images/avatar-dark.webp'
+      : './assets/images/avatar-light.webp';
+  }
 
-    // Animation
+   // Ajout favicon switch
+  const favicon = document.getElementById('favicon');
+  if (favicon) {
+    favicon.href = document.body.classList.contains('dark-mode')
+      ? './assets/images/logo-dark.ico'
+      : './assets/images/logo-light.ico';
+  }
+})
+
     themeToggle.addEventListener('mouseenter', () => {
-      themeToggle.style.transform = 'scale(1.15) rotate(10deg)';
+      themeToggle.style.transform = 'scale(1.12) rotate(8deg)';
     });
-
     themeToggle.addEventListener('mouseleave', () => {
       themeToggle.style.transform = 'scale(1) rotate(0deg)';
     });

@@ -5,37 +5,36 @@
 export const profileData = {
   name: "Tariq LAABOUDI",
   role: "Étudiant SIO",
-  avatar: "./assets/images/my-avatar.png",
-  location: "France",
-  email: "tariq.laaboudi.sn@gmail.com",
+  avatar: "./assets/images/avatar-light.webp",
+  avatarLight: "./assets/images/avatar-dark.webp",
+  email: "tariq.laaboudi@fbi.one",
   socials: [
-    { icon: "logo-github", link: "https://github.com/Trq-Builds" }, // Lien Github
-    { icon: "globe-outline", link: "https://drift.rip/K4ta" }  // Lien Linktree
-]
+    { icon: "logo-github", link: "https://github.com/Trq-Builds" },
+    { icon: "globe-outline", link: "https://drift.rip/K4ta" }
+  ]
 };
 
 export const aboutData = {
   text: `<p>Étudiant SIO-SISR en 2ᵉ année, spécialisé en réseaux et passionné de hardware. Organisé, méthodique et toujours prêt à bricoler, j'aime comprendre, optimiser et résoudre les problèmes.</p>
          <p>Auteur du projet Optimize Alot et de multiples documentations techniques, je construis des solutions simples, efficaces et reproductibles. Expérience pratique en Windows, dépannage et maintenance.</p>`,
-
 };
 
 export const resumeData = {
   education: [
     {
-      school: "BTS SIO - SISR (Lycée Marie Curie)", // J'ai mis le diplôme ICI pour qu'il s'affiche
+      school: "BTS SIO - SISR (Lycée Marie Curie)",
       date: "2023 — 2025",
       desc: "Option Solutions d'infrastructure, systèmes et réseaux."
     },
     {
-      school: "Bac Pro SN (Lycée Saint-Pierre)", // J'ai mis le diplôme ICI pour qu'il s'affiche
+      school: "Bac Pro SN (Lycée Saint-Pierre)",
       date: "2021 — 2024",
       desc: "Systèmes Numériques."
     }
   ],
   experience: [
     {
-      title: "Stage Eursocan", // Titre + Entreprise fusionnés pour l'affichage
+      title: "Stage Eursocan",
       date: "2025",
       desc: "Accueil client, dépannage PC (hardware/software) et gestion logistique."
     },
@@ -46,7 +45,7 @@ export const resumeData = {
     }
   ],
   skills: [
-    { name: "Documentation Technique", percent: 80 }, // Noms raccourcis pour que ça rentre bien
+    { name: "Documentation Technique", percent: 80 },
     { name: "Hardware & Dépannage", percent: 90 },
     { name: "Admin Sys & Réseaux", percent: 60 },
     { name: "Gestion Infrastructure", percent: 50 }
@@ -54,7 +53,7 @@ export const resumeData = {
 };
 
 
-// ========== NOUVELLE SECTION : OUTILS ==========
+// ========== OUTILS ==========
 export const outilsData = [
   {
     title: "Intelligence Artificielle",
@@ -132,23 +131,113 @@ export const outilsData = [
 ];
 
 
+// ========== CERTIFICATIONS ==========
+export const certificationsData = [
+  {
+    title: "Certifications obtenues",
+    icon: "ribbon-outline",
+    items: [
+      {
+        name: "Exemple — Certification 1",
+        issuer: "Organisme",
+        date: "2024",
+        description: "Description courte de la certification.",
+        link: ""
+      }
+    ]
+  },
+  {
+    title: "En cours / Préparées",
+    icon: "time-outline",
+    items: [
+      {
+        name: "Exemple — Certification en cours",
+        issuer: "Organisme",
+        date: "2025",
+        description: "Certification en cours de préparation.",
+        link: ""
+      }
+    ]
+  }
+];
+
+
+// ========== MATÉRIEL ==========
+export const materielData = [
+  {
+    title: "Poste de travail",
+    icon: "desktop-outline",
+    items: [
+      {
+        name: "Exemple — CPU",
+        description: "Processeur principal de la machine.",
+        link: ""
+      },
+      {
+        name: "Exemple — GPU",
+        description: "Carte graphique utilisée.",
+        link: ""
+      },
+      {
+        name: "Exemple — RAM",
+        description: "Mémoire vive installée.",
+        link: ""
+      }
+    ]
+  },
+  {
+    title: "Périphériques",
+    icon: "hardware-chip-outline",
+    items: [
+      {
+        name: "Exemple — Écran",
+        description: "Moniteur principal.",
+        link: ""
+      },
+      {
+        name: "Exemple — Clavier",
+        description: "Clavier mécanique utilisé.",
+        link: ""
+      }
+    ]
+  },
+  {
+    title: "Réseau & Serveurs",
+    icon: "server-outline",
+    items: [
+      {
+        name: "Exemple — Switch",
+        description: "Switch réseau de lab.",
+        link: ""
+      },
+      {
+        name: "Exemple — NAS / Serveur",
+        description: "Serveur de stockage ou de test.",
+        link: ""
+      }
+    ]
+  }
+];
+
+
+// ========== PORTFOLIO ==========
 export const portfolioData = [
   {
     title: "Documentation AD",
     category: "Windows",
-    image: "./assets/images/project-2.svg",
+    image: "https://images-ext-1.discordapp.net/external/u96J1Oq9Qwr2EEZIkAHagvYs4hzi8udT8zKocSctOkA/https/opengraph.githubassets.com/6c6dc15705e48558420ca1f66c1dc3a5b50b56ddd8f50d5fe4d27045266be97b/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine?format=webp&width=1650&height=825",
     link: "https://github.com/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine"
   },
   {
     title: "Documentation FOG",
     category: "Linux",
-    image: "./assets/images/project-1.svg",
+    image: "https://images-ext-1.discordapp.net/external/Kdnuz-wYoqoQ-Ms7hloWkDBNu1woedcq3yAOe_ZlrJI/https/opengraph.githubassets.com/4af882787510cec0398c8afa198ae99cdc9cd5b14e325e1f899a6e4af7057b89/Trq-Builds/Doc-Technique-Service-de-deploiement-FOG?format=webp&width=1650&height=825",
     link: "https://github.com/Trq-Builds/Doc-Technique-Service-de-deploiement-FOG"
   },
   {
     title: "Repos Portfolio",
     category: "Autre",
-    image: "./assets/images/project-3.svg", // Attention j'ai remis .svg (si c'est .jpg change le)
+    image: "https://images-ext-1.discordapp.net/external/BdIp7W1i0SBh5fZTPzrB9fnyzEWPTaf_vQFMwUyuKBA/https/opengraph.githubassets.com/17cefd3511913f4e2f4f733da87b007b8f4ef2b19dab60530cf4d8eaefcb150e/Trq-Builds/Portfolio-V1.8?format=webp&width=1650&height=825",
     link: "https://github.com/Trq-Builds/2025-Portfolio-V1.8"
   },
 ];
