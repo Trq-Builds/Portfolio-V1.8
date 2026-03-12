@@ -214,12 +214,13 @@ style.css
 - ` 🤖 ` **︲`Gemini 3.0 PRO`** ︲[`🌐`](https://gemini.google.com/app)
 - ` 🤖 ` **︲`GPT-5.1`** ︲[`🌐`](https://chatgpt.com/)
 - ` 🤖 ` **︲`LmArena.AI`** ︲[`🌐`](https://lmarena.ai/)
-- ` 🌐 ` **︲`Netlifly`** ︲[`🌐`](https://app.netlify.com/)
+- ` 🌐 ` **︲`Netlifly.app`** ︲[`🌐`](https://app.netlify.com/)
 - ` 🌐 ` **︲`RepoTreeGenerator`** ︲[`🌐`](https://ascii-repotree.vercel.app/generator)
 - ` 🌐 ` **︲`Uiverse.io`** ︲[`🌐`](https://uiverse.io/)
 - ` 🌐 ` **︲`VisualStudioCode`** ︲[`🌐`](https://code.visualstudio.com/)
 
 ---
+
 
 
 
