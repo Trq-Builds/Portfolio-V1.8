@@ -20,8 +20,6 @@
 
 - ` 👤 `︲**Auteur :** *`Trq-Builds`*
 
-- ` 🟢 `︲**Statut :** **`ON`**
-
 - ` 🟣 `︲**Source/Fork :** https://github.com/codewithsadee/vcard-personal-portfolio
 
 - ` 🌐 `︲**Lien :** https://tariq-laab.netlify.app
@@ -220,6 +218,7 @@ style.css
 - ` 🌐 ` **︲`VSCodium`** ︲[`🌐`](https://vscodium.com/)
 
 ---
+
 
 
 
