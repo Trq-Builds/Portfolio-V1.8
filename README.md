@@ -190,7 +190,7 @@ style.css
 
 - ` 🟡 `︲Intégration de nouveaux items au sein de la section « Projets », incluant : TP-DNS, TP-KALI, DHCP. Accompagnés pour chacun d’une documentation technique au format Markdown (.MD) centralisée sur GitHub.
 
-- ` 🟠 `︲Évolution en cours du module « OUTILS » impliquant une **réécriture technique**, l’**ajout de fonctionnalités** et l’**enrichissement de la documentation**, avec la création des rubriques **« Certifications »** et **« Veille informatique »**, afin de compléter et structurer un contenu jusque-là incomplet et insuffisamment détaillé, tout en permettant le **suivi des compétences** et la **centralisation de la veille technologique**.
+- ` 🟠 `︲Évolution en cours du module **« Certifications »** et **« Veille informatique »**, afin de compléter et structurer un contenu jusque-là incomplet et insuffisamment détaillé, tout en permettant le **suivi des compétences** et la **centralisation de la veille technologique**.
 
 ---
 
