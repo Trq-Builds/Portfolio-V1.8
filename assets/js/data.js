@@ -165,55 +165,95 @@ export const certificationsData = [
 // ========== MATÉRIEL ==========
 export const materielData = [
   {
-    title: "Poste de travail",
+    title: "PC",
     icon: "desktop-outline",
     items: [
       {
-        name: "Exemple — CPU",
-        description: "Processeur principal de la machine.",
-        link: ""
+        name: "AMD Ryzen 7 9700X",
+        description: "Processeur 8 Cores / 16 Threads à 5.62GHz - PBO et Powerlimit débloqués + Tweaks BIOS",
+        link: "https://www.amd.com/fr/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html"
       },
       {
-        name: "Exemple — GPU",
-        description: "Carte graphique utilisée.",
-        link: ""
+        name: "XFX Radeon RX 5700 XT RAW III",
+        description: "8Go de VRAM GDDR6 - Performances correctes en 1080P + BIOS Custom",
+        link: "https://www.xfxforce.com/gpus/radeon-tm-rx-5700-xt-8gb-gddr6-thicc-iii-ultra"
       },
       {
-        name: "Exemple — RAM",
-        description: "Mémoire vive installée.",
-        link: ""
+        name: "32 Go Kingston Fury DDR5",
+        description: "Mémoire cadencée à 5200 MT/s - Profil EXPO actif - (Kit 6000 MT/s CL26 envisagé)",
+        link: "https://www.kingston.com/dataSheets/KF552C40BB-16.pdf"
+      },
+      {
+        name: "Gigabyte X870M AORUS ELITE WIFI7",
+        description: "Carte mère haut de gamme - WiFi 7 et PCIe 5.0",
+        link: "https://www.gigabyte.com/Motherboard/X870M-AORUS-ELITE-WIFI7"
+      },
+      {
+        name: "Boîtier DeepCool CH370",
+        description: "Châssis Micro-ATX compact avec flux d'air optimisé",
+        link: "https://fr.deepcool.com/products/Cases/CH370-Micro-ATX-Case/2022/15972.shtml"
+      },
+      {
+        name: "Artic Liquid Freezer III Pro",
+        description: "AIO CPU haute performance.",
+        link: "https://www.arctic.de/en/Liquid-Freezer-III-Pro-240/ACFRE00178A"
+      },
+       {
+        name: " ARCTIC P14 Pro PST 140mm - ARCTIC P12 Pro 120mm",
+        description: "Ventilation et refroidissement max.",
+        link: "https://www.arctic.de/en/P14-Pro-PST/ACFAN00314A"
+      },
+      {
+        name: "Samsung 9100PRO 1To",
+        description: "SSD NVMe PCIe 5.0 - SSD pour l'OS.",
+        link: "https://www.samsung.com/fr/memory-storage/nvme-ssd/9100-pro-1tb-nvme-pcie-gen-5-mz-vap1t0bw/"
+      },
+      {
+        name: "Samsung 870 EVO 500Go",
+        description: "SSD SATA - Stockage secondaire fiable (increvable)",
+        link: "https://www.samsung.com/fr/memory-storage/sata-ssd/870-evo-500gb-sata-3-2-5-ssd-mz-77e500b-eu/"
+      },
+      {
+        name: "Crucial P3 500Go",
+        description: "SSD NVMe PCIe 3.0 - Stockage Secondaire Rapide (Jeux-Vidéos)",
+        link: "https://www.crucial.fr/ssd/p3/ct500p3ssd8"
       }
     ]
   },
   {
-    title: "Périphériques",
+    title: "Périphériques & Affichage",
     icon: "hardware-chip-outline",
     items: [
       {
-        name: "Exemple — Écran",
-        description: "Moniteur principal.",
-        link: ""
+        name: "Iiyama G-MASTER PL2730H",
+        description: "Moniteur 27 pouces 1080p - (O.C à 100Hz) (Upgrade vers OLED en 240Hz envisagé)",
+        link: "https://iiyama.com/gl_en/products/g-master-g2730hsu-b1/"
       },
       {
-        name: "Exemple — Clavier",
-        description: "Clavier mécanique utilisé.",
-        link: ""
+        name: "Mes Claviers",
+        description: "Hama : clavier bureautique standard AZERTY (sans fil) | Clavier de Jeu : MAD68R : Hall Effect - Switches KUNLUN AXIS - Mods : sound dampening + gasket mount.",
+        link: "https://madlionskeyboard.com/fr/produit/mad68he/"
+      },
+      {
+        name: "VXE R1 PRO MAX",
+        description: "Souris avec PixArt PAW3395  500mAh  Switches Kailh White Blade  Poids : ~54 g",
+        link: "https://www.atk.store/fr/products/vxe-dragonfly-r1-series-wireless-mouse?variant=44857375588570"
+      },
+      {
+        name: "Matos Son",
+        description: "Casque principal : Corsair HS60 Pro Surround (connecté en analogique à la carte mère, réglée sur 32 bits / 192 kHz, avec sortie WASAPI et rééchantillonnage Windows désactivé). | IEMs : Kiwi Ears Cadenza – driver dynamique en béryllium de 10 mm (audiophile), pour un son de haute qualité, idéal pour la musique et un son cristallin. (D.A.C et Amplificateur envisagé).",
+        link: "https://kiwiears.com/products/kiwi-ears-cadenza"
       }
     ]
   },
   {
-    title: "Réseau & Serveurs",
+    title: "Réseau",
     icon: "server-outline",
     items: [
       {
-        name: "Exemple — Switch",
-        description: "Switch réseau de lab.",
-        link: ""
-      },
-      {
-        name: "Exemple — NAS / Serveur",
-        description: "Serveur de stockage ou de test.",
-        link: ""
+        name: "Freebox ULTRA",
+        description: " Réseau ultra-rapide - Débit symètrique sur le PC (2.5G descendant et montant) - (8 Gbit/s en débit descendant et montant (débits maximum théoriques) - (Optimisations au niveau du Routeur et Freebox O.S)",
+        link: "https://www.free.fr/freebox/freebox-ultra"
       }
     ]
   }
@@ -222,17 +262,65 @@ export const materielData = [
 
 // ========== PORTFOLIO ==========
 export const portfolioData = [
+ {
+    title: "CEJMA ・ TP1 & TP2",
+    category: "Autre",
+    image: "https://images-ext-1.discordapp.net/external/n7BuANsQtp4mUoJq299lU2zICMhAcjXAGXmePan-aW4/https/opengraph.githubassets.com/95ab98531a95740dda9469d09d411cdb1626533705bb96ac4e0742f71e6c9dac/Trq-Builds/TP1-TP2-CEJMA?format=webp&width=1500&height=750",
+    link: "https://github.com/Trq-Builds/TP1-TP2-CEJMA"
+  },
+ {
+    title: "Devoir - 1 BTS SIO ・ SISR 2ᵉ année.",
+    category: "Autre",
+    image: "https://images-ext-1.discordapp.net/external/BiUhlkYd0rBAgKjEPAwvcGk4mYiDnuJJJvmHXzXzcA8/https/opengraph.githubassets.com/5580fcdd6c8a50fa72822c69a4335d1bd98c0100d9db4ee6796e28fc545da734/Trq-Builds/DEVOIR-CEJMA-1?format=webp&width=1500&height=750",
+    link: "https://github.com/Trq-Builds/DEVOIR-CEJMA-1"
+  },
+{
+    title: "Devoir - 2 ・ BTS SIO SISR 2ᵉ année.",
+    category: "Autre",
+    image: "https://images-ext-1.discordapp.net/external/uHOzEQUx2VpoZGycRfKs4QTgCiK2KHQmhpi1YebqOHY/https/opengraph.githubassets.com/02d4a22c885a0103f010021dfefca7be19951d6cb078dd00be252e0c36f94583/Trq-Builds/DEVOIR-CEJMA-2?format=webp&width=1500&height=750",
+    link: "https://github.com/Trq-Builds/DEVOIR-CEJMA-2"
+  },
+ {
+    title: "Doc-Technique-installation-Debian-13-sans-interface-graphique",
+    category: "Linux",
+    image: "https://cdn.shortpixel.ai/spai/q_lossy+ret_img+to_auto/linuxiac.com/wp-content/uploads/2024/12/trixie-artwork-1024x576.jpg",
+    link: "https://github.com/Trq-Builds/Doc-Technique-installation-Debian-13-sans-interface-graphique"
+  },
+ {
+    title: "Doc-Technique-Installation-Windows-11",
+    category: "Windows",
+    image: "https://images-ext-1.discordapp.net/external/nqUz3WMhMLUSm5WoE35AJYk_6FKC-3QM0dHRP75im5E/https/opengraph.githubassets.com/c506bc37809506146ba7039b28b439916f795615e958be35605677d89a8fd81f/Trq-Builds/Doc-Technique-Installation-Windows-11?format=webp&width=1500&height=750",
+    link: "https://images-ext-1.discordapp.net/external/nqUz3WMhMLUSm5WoE35AJYk_6FKC-3QM0dHRP75im5E/https/opengraph.githubassets.com/c506bc37809506146ba7039b28b439916f795615e958be35605677d89a8fd81f/Trq-Builds/Doc-Technique-Installation-Windows-11?format=webp&width=1500&height=750"
+  },
+ {
+    title: "Doc-Technique-Installation-Windows-Server-2025",
+    category: "Windows",
+    image: "https://imgs.search.brave.com/BANAXRIGNncZeU3BCbXQ72vhobKjruKjou5TIGcq0_w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2l4c3RhdGlj/LmNvbS9tZWRpYS8w/OTVhY2NfZTBhNDc5/NzBkZjM2NGQxZGEx/NjA3MzlmY2Q0NGE2/Njd-bXYyLnBuZy92/MS9maXQvd185Nzks/aF82MDgscV85MCxl/bmNfYXZpZixxdWFs/aXR5X2F1dG8vMDk1/YWNjX2UwYTQ3OTcw/ZGYzNjRkMWRhMTYw/NzM5ZmNkNDRhNjY3/fm12Mi5wbmc",
+    link: "https://github.com/Trq-Builds/Doc-Technique-Installation-Windows-Server-2025"
+  },
   {
-    title: "Documentation AD",
+    title: "Doc-Technique-Service-de-deploiement-FOG",
+    category: "Linux",
+    image: "https://images-ext-1.discordapp.net/external/Kdnuz-wYoqoQ-Ms7hloWkDBNu1woedcq3yAOe_ZlrJI/https/opengraph.githubassets.com/4af882787510cec0398c8afa198ae99cdc9cd5b14e325e1f899a6e4af7057b89/Trq-Builds/Doc-Technique-Service-de-deploiement-FOG?format=webp&width=1650&height=825",
+    link: "https://github.com/Trq-Builds/Doc-Technique-Service-de-deploiement-FOG"
+  },
+{
+    title: "Doc-Technique-Superviser un réseau avec Zabbix et Grafana.",
+    category: "Linux",
+    image: "https://images-ext-1.discordapp.net/external/5CruwiXWW80WzKrb3jXWGijESfZJawcii0JIUM1CNDA/https/opengraph.githubassets.com/12e95ee8947fe803d5e5323db8accc609a3f91a6c5ea4f73c01c1874529e6b27/Trq-Builds/Doc-Technique-Superviser-Un-Reseau-Avec-Zabbix-et-Grafana?format=webp&width=1500&height=750",
+    link: "https://github.com/Trq-Builds/Doc-Technique-Superviser-Un-Reseau-Avec-Zabbix-et-Grafana"
+  },
+  {
+    title: "Documentation TP : Administrer un controleur de domaine",
     category: "Windows",
     image: "https://images-ext-1.discordapp.net/external/u96J1Oq9Qwr2EEZIkAHagvYs4hzi8udT8zKocSctOkA/https/opengraph.githubassets.com/6c6dc15705e48558420ca1f66c1dc3a5b50b56ddd8f50d5fe4d27045266be97b/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine?format=webp&width=1650&height=825",
     link: "https://github.com/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine"
   },
-  {
-    title: "Documentation FOG",
-    category: "Linux",
-    image: "https://images-ext-1.discordapp.net/external/Kdnuz-wYoqoQ-Ms7hloWkDBNu1woedcq3yAOe_ZlrJI/https/opengraph.githubassets.com/4af882787510cec0398c8afa198ae99cdc9cd5b14e325e1f899a6e4af7057b89/Trq-Builds/Doc-Technique-Service-de-deploiement-FOG?format=webp&width=1650&height=825",
-    link: "https://github.com/Trq-Builds/Doc-Technique-Service-de-deploiement-FOG"
+{
+    title: "GLPI",
+    category: "Autre",
+    image: "https://images-ext-1.discordapp.net/external/0satjidUaFkdIgmkBl50kCut4fvVOkoi3neLfuFsoG4/https/opengraph.githubassets.com/dcbdca28df39c488f98596cb298b82ad3ae684d8ec1b3ab97cc8c0463c777d69/Trq-Builds/GLPI?format=webp&width=1500&height=750",
+    link: "https://github.com/Trq-Builds/GLPI"
   },
   {
     title: "Repos Portfolio",
@@ -240,4 +328,18 @@ export const portfolioData = [
     image: "https://images-ext-1.discordapp.net/external/BdIp7W1i0SBh5fZTPzrB9fnyzEWPTaf_vQFMwUyuKBA/https/opengraph.githubassets.com/17cefd3511913f4e2f4f733da87b007b8f4ef2b19dab60530cf4d8eaefcb150e/Trq-Builds/Portfolio-V1.8?format=webp&width=1650&height=825",
     link: "https://github.com/Trq-Builds/2025-Portfolio-V1.8"
   },
+{
+    title: "TP-Des-serveurs-aux-services",
+    category: "Autre",
+    image: "https://cdn.discordapp.com/attachments/1414173910802632775/1483050658654453760/TP-Des-serveurs-aux-services.png?ex=69b92e0e&is=69b7dc8e&hm=dac196f14084d16e5a7df095ff41a2d04c5a554754ea914fc94eb5eba3167399&animated=true",
+    link: "https://github.com/Trq-Builds/TP-Des-serveurs-aux-services"
+  },
 ];
+
+
+
+
+
+
+
+
