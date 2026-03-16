@@ -188,9 +188,9 @@ style.css
 
 ## ` 🔻 `︲**Améliorations prévues :**
 
-- ` 🟠 `︲Évolution en cours du module « OUTILS » impliquant une réécriture technique, l’ajout de fonctionnalités et l’enrichissement de la documentation, incluant la création des rubriques « Certifications » et « Veille informatique », afin de pallier un contenu actuellement incomplet et insuffisamment détaillé.
+- ` 🟡 `︲Intégration de nouveaux items au sein de la section « Projets », incluant : TP-DNS, TP-KALI, Item-GLPI, Install-Debian, Install-Windows-11-Server et Install-Windows-11, accompagnés pour chacun d’une documentation technique au format Markdown (.MD) centralisée sur GitHub.
 
-- ` 🟠 `︲Création en cours du module « VEILLE », impliquant la structuration et la rédaction détaillée de la veille informatique réalisée sur l’année précédente afin de formaliser et documenter les informations technologiques collectées.
+- ` 🟠 `︲Évolution en cours du module « OUTILS » impliquant une réécriture technique, l’ajout de fonctionnalités et l’enrichissement de la documentation, incluant la création des rubriques « Certifications » et « Veille informatique », afin de pallier un contenu actuellement incomplet et insuffisamment détaillé.
 
 ---
 

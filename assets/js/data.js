@@ -57,75 +57,103 @@ export const resumeData = {
 export const outilsData = [
   {
     title: "Intelligence Artificielle",
-    icon: "sparkles-outline",
+    icon: "ellipse-outline",
     items: [
       {
-        name: "Claude 3.7 Sonnet",
-        description: "Assistant IA pour la rédaction, le code et l'analyse technique.",
+        name: "Gemini",
+        description: "Modèle d’IA multimodal de Google : générer et analyser texte, images, audio et code. Véritable couteau suisse numérique infatigable.",
+        link: "https://gemini.google/"
+      },
+      {
+        name: "Claude",
+        description: "Modèle d’IA de pointe d’Anthropic, spécialisé dans le raisonnement avancé et l’analyse de code. Un partenaire de réflexion d’une grande précision. C’est grâce à lui que ce portfolio a vu le jour.",
         link: "https://claude.ai/"
       },
       {
-        name: "ChatGPT-5.1",
-        description: "IA conversationnelle pour recherche et brainstorming.",
+        name: "ChatGPT",
+        description: "Modèle d’IA développé par OpenAI, capable d’aider à la génération de contenu et à la résolution de problèmes. Un outil polyvalent qui peut servir de support dans de nombreux contextes, selon les besoins.",
         link: "https://chatgpt.com/"
-      },
-      {
-        name: "Gemini 3.0 PRO",
-        description: "IA de Google pour analyse de documents et recherche.",
-        link: "https://gemini.google.com/app"
-      },
-      {
-        name: "LmArena.AI",
-        description: "Comparaison et test de différents modèles IA.",
-        link: "https://lmarena.ai/"
       }
     ]
   },
   {
+    // Outils de Dev.
     title: "Développement & Outils",
     icon: "code-slash-outline",
     items: [
       {
-        name: "Visual Studio Code",
-        description: "Éditeur de code principal pour tous mes projets.",
-        link: "https://code.visualstudio.com/"
+        name: "Donarev19",
+        description: "Permet de créer des adresses e-mail et de raccourcir des liens librement, selon les besoins, de manière simple et flexible. (Illimité.)",
+        link: "https://donarev419.com/"
+      },
+      {
+        name: "FMHY (FreeMediaHeckYeah)",
+        description: "Une vaste collection de ressources numériques du web : un index communautaire très fourni pour découvrir outils et logiciels. Une petite mine d'or pour qui sait ce qu'il cherche.",
+        link: "https://fmhy.net/"
       },
       {
         name: "GitHub",
-        description: "Gestion de version et hébergement de mes projets.",
+        description: "Plateforme de forge logicielle et gestion de version : hébergement sécurisé et collaboration fluide via Git. L'épine dorsale de mes déploiements.",
         link: "https://github.com/Trq-Builds"
       },
       {
-        name: "Netlify",
-        description: "Déploiement et hébergement de sites web statiques.",
-        link: "https://app.netlify.com/"
+        name: "HandBrake",
+        description: "Transcodeur vidéo open source de référence : il permet de convertir et d’optimiser des fichiers vidéo vers de nombreux formats modernes, avec fiabilité et simplicité.",
+        link: "https://handbrake.fr/"
       },
       {
-        name: "RepoTreeGenerator",
-        description: "Générateur d'arborescence ASCII pour documentation.",
-        link: "https://ascii-repotree.vercel.app/generator"
-      }
+        name: "MPC-QT",
+        description: "Lecteur multimédia léger inspiré de Media Player Classic et réécrit en Qt : simple, rapide et sans fioritures pour la lecture multimédia. Une alternative très efficace à VLC.",
+        link: "https://mpc-qt.github.io/"
+      },
+      {
+        name: "Nagi",
+        description: "Lecteur de musique open-source, moderne et épuré : basé sur WinUI 3, il propose une expérience d’écoute fluide, centrée sur l’essentiel et une interface soignée. Particulièrement agréable avec des fichiers .FLAC.",
+        link: "https://github.com/Anthonyy232/Nagi"
+      },
+      {
+        name: "NanaZip",
+        description: "Dérivé moderne de 7-Zip pour Windows : gestion d’archives haute performance, avec intégration native au menu contextuel de Windows 11 et une interface soignée (Mica).",
+        link: "https://github.com/M2Team/NanaZip"
+      },
+      {
+        name: "Netlify",
+        description: "Solution gratuite pour le déploiement de sites web statiques, simple à utiliser et adaptée aux projets personnels comme aux petits déploiements.",
+        link: "https://www.netlify.com/"
+      },
+      {
+        name: "Parabolic",
+        description: "Utilitaire de téléchargement de vidéos et d’audio basé sur yt-dlp : une interface moderne et intuitive pour récupérer du contenu facilement. Un outil open-source performant, pensé pour l’efficacité.",
+        link: "https://github.com/NickvisionApps/Parabolic"
+      },
+      {
+        name: "QQDL",
+        description: "Scrapper de musique : un outil capable de récupérer rapidement des morceaux en qualité lossless en .FLAC. Pour ceux qui aiment le bon son, cela mérite au moins un coup d'œil.",
+        link: "https://tidal.qqdl.site/"
+      },
+      {
+        name: "VSCodium",
+        description: "Éditeur de code open source basé sur les binaires libres de VS Code : léger, performant et pensé pour mieux respecter la vie privée.",
+        link: "https://vscodium.com/"
+      },
     ]
   },
+      
+      
   {
     title: "Documentation & Organisation",
     icon: "document-text-outline",
     items: [
-      {
+     {
         name: "Notion",
-        description: "Organisation de mes notes et planning de projets.",
-        link: "https://notion.so"
+        description: "Espace de travail tout-en-un : prise de notes, gestion de bases de données et planification de projets. Mon second cerveau, pour tout centraliser.",
+        link: "https://www.notion.so/"
       },
       {
         name: "Markdown",
-        description: "Format de documentation pour tous mes README et guides.",
-        link: ""
+        description: "Langage de balisage léger : structuration de texte simple, rapide et universelle. C’est mon standard pour une documentation claire et pérenne. C’est grâce à lui que j’en suis là avec toutes mes docs !",
+        link: "https://www.markdownguide.org/"
       },
-      {
-        name: "Draw.io",
-        description: "Création de schémas réseau et diagrammes techniques.",
-        link: "https://app.diagrams.net/"
-      }
     ]
   }
 ];
@@ -248,7 +276,7 @@ export const materielData = [
   },
   {
     title: "Réseau",
-    icon: "server-outline",
+    icon: "globe-outline",
     items: [
       {
         name: "Freebox ULTRA",
