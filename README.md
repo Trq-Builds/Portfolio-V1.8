@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/BTS_SIO-SISR_E5_2026-8E95E1?style=for-the-badge">
 </p>
 
-`  👤 `︲**Auteur :** `Trq-Builds`
+` 👤 `︲**Auteur :** `Trq-Builds`
 
 ` 🌐 `︲**Live :** https://tariq-laab.netlify.app
 
