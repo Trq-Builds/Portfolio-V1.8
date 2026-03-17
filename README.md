@@ -1,4 +1,4 @@
-# ` ⚫ ` ` ⚪ ` Portfolio V1.8 ︲ Tariq LAABOUDI
+# `  ⚫  ` `  ⚪  ` Portfolio V1.8 ︲ Tariq LAABOUDI
 
 <p align="center">
 Monochrome - Lavande
@@ -12,15 +12,15 @@ Monochrome - Lavande
   <img src="https://img.shields.io/badge/BTS_SIO-SISR_E5_2026-8E95E1?style=for-the-badge">
 </p>
 
-` 👤 `︲**Auteur :** `Trq-Builds`
+`  👤  `︲**Auteur :** `Trq-Builds`
 
-` 🌐 `︲**Live :** https://tariq-laab.netlify.app
+`  🌐  `︲**Live :** https://tariq-laab.netlify.app
 
-` 🟣 `︲**Fork base :** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
+`  🟣  `︲**Fork base :** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
 
 ---
 
-## ` ⚫ `︲Architecture
+## `  ⚫  `︲Architecture
 
 SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à partir des données déclarées dans `data.js`.
 
@@ -41,7 +41,7 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## ` ⚪ `︲Composants JS
+## `  ⚪  `︲Composants JS
 
 | Fichier | Pattern | Responsabilité |
 |---|---|---|
@@ -52,7 +52,7 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## ` ⚫ ` CSS ︲ Points notables
+## `  ⚫  ` CSS ︲ Points notables
 
 - **Custom Properties** : Palette dual-mode (`--bg-body`, `--accent-color`, etc.), shadows neumorphiques paramétrées par mode.
 - **Bascule Thème** : Via `body.dark-mode` uniquement ︲ aucune duplication de règles.
@@ -61,7 +61,7 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## ` ⚪ `︲Déploiement
+## `  ⚪  `︲Déploiement
 
 ```text
 Local Dev ──► Git Push ──► GitHub (Source)
@@ -76,7 +76,7 @@ Local Dev ──► Git Push ──► GitHub (Source)
 
 ---
 
-## ` ⚫ `︲SISR Lab ︲ Documentation Technique (E5)
+## `  ⚫  `︲SISR Lab ︲ Documentation Technique (E5)
 
 Projets documentés en Markdown, hébergés sur GitHub :
 
@@ -106,7 +106,7 @@ IA         : Claude Sonnet · GPT-5.1 · Gemini 3.0 Pro
 
 ---
 
-## ` ⚫ `︲Backlog
+## `  ⚫  `︲Backlog
 
 - [ ] Module **Veille informatique** ︲ Structuration et rédaction.
 - [ ] Module **Certifications** ︲ Enrichissement contenu.
