@@ -1,4 +1,4 @@
-# Portfolio V1.8 ︲ Tariq LAABOUDI
+# ` ⚫ ` ` ⚪ ` Portfolio V1.8 ︲ Tariq LAABOUDI
 
 <p align="center">
   <img src="https://img.shields.io/website?url=https://tariq-laab.netlify.app&label=deploy&style=for-the-badge">
@@ -37,7 +37,7 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## ` ⚫ `︲Composants JS
+## ` ⚪ `︲Composants JS
 
 | Fichier | Pattern | Responsabilité |
 |---|---|---|
@@ -48,7 +48,7 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## CSS ︲ Points notables
+## ` ⚫ ` CSS ︲ Points notables
 
 - **Custom Properties** : Palette dual-mode (`--bg-body`, `--accent-color`, etc.), shadows neumorphiques paramétrées par mode.
 - **Bascule Thème** : Via `body.dark-mode` uniquement ︲ aucune duplication de règles.
@@ -57,7 +57,7 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## ` ⚫ `︲Déploiement
+## ` ⚪ `︲Déploiement
 
 ```text
 Local Dev ──► Git Push ──► GitHub (Source)
@@ -90,7 +90,7 @@ Projets documentés en Markdown, hébergés sur GitHub :
 
 ---
 
-## ` ⚫ `︲Stack & Outils
+## `  ⚪  `︲Stack & Outils
 
 ```text
 Frontend   : HTML5 · CSS3 Custom Properties · JS ES6+ Modules
