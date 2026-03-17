@@ -90,7 +90,6 @@ Hosting    : Netlify (CDN, HTTPS, deploy auto)
 Versioning : Git / GitHub
 IDE        : VSCodium
 IA         : Claude Sonnet · GPT-5.1 · Gemini 3.0 Pro · LMArena
-Schémas    : Draw.io
 Docs       : Markdown natif
 ```
 
