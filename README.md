@@ -1,5 +1,7 @@
 # ` ⚫ ` ` ⚪ ` Portfolio V1.8 ︲ Tariq LAABOUDI
 
+Monochrome - Lavande
+
 <p align="center">
   <img src="https://img.shields.io/website?url=https://tariq-laab.netlify.app&label=deploy&style=for-the-badge">
   <img src="https://img.shields.io/badge/version-1.8-blue?style=for-the-badge">
