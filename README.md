@@ -53,17 +53,19 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
+```markdown
 ## Déploiement
 ```
-Git push ──► GitHub repo ──► Netlify (auto-deploy)
-                                  │
-                         CDN + HTTPS + headers
-                         tariq-laab.netlify.app
+Local Dev ──► Git Push ──► GitHub (Source)
+                │
+                └────────► Netlify CLI (Manual Deploy)
+                               │
+                               ▼
+                     CDN + HTTPS + tariq-laab.netlify.app
 ```
 
-Aucun build step. Assets servis statiquement. Deploy déclenché sur chaque push `main`.
-
----
+**Zéro automatisation.** Déploiement déclenché manuellement via la CLI Netlify après validation locale. Aucun build step, intégrité des assets garantie.
+```
 
 ## SISR Lab ︲ Documentation Technique (E5)
 
