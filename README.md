@@ -102,6 +102,7 @@ Schémas    : Draw.io / ASCII
 
 ## Backlog
 
+```
 - [ ] Module **Veille informatique** ︲ Structuration et rédaction.
 - [ ] Module **Certifications** ︲ Enrichissement contenu.
 - [ ] Ajout TP-DNS, TP-KALI, TP-DHCP dans le portfolio.
