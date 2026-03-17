@@ -98,11 +98,10 @@ Projets documentés en Markdown, hébergés sur GitHub :
 
 ```text
 Frontend   : HTML5 · CSS3 Custom Properties · JS ES6+ Modules
-Hosting    : Netlify (Manual Deploy, CDN, HTTPS)
+Hosting    : Netlify (Manual Deploy - HTTPS)
 Versioning : Git / GitHub
-IDE        : VSCodium
+IDE        : VSCodium [🌐](https://codeberg.org/beem/monochromator.git)
 IA         : Claude Sonnet · GPT-5.1 · Gemini 3.0 Pro
-Schémas    : Draw.io / ASCII
 ```
 
 ---
