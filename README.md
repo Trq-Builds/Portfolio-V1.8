@@ -76,24 +76,6 @@ Local Dev ──► Git Push ──► GitHub (Source)
 
 ---
 
-## `  ⚫  `︲SISR Lab ︲ Documentation Technique (E5)
-
-Projets documentés en Markdown, hébergés sur GitHub :
-
-| Projet | Catégorie | Lien |
-|---|---|---|
-| Service de déploiement FOG | Linux / Imaging | [🌐](https://github.com/Trq-Builds/Doc-Technique-Service-de-deploiement-FOG) |
-| Administrer un contrôleur de domaine | Windows Server | [🌐](https://github.com/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine) |
-| Installation Windows Server 2025 | Windows | [🌐](https://github.com/Trq-Builds/Doc-Technique-Installation-Windows-Server-2025) |
-| Installation Windows 11 | Windows | [🌐](https://github.com/Trq-Builds/Doc-Technique-Installation-Windows-11) |
-| Installation Debian 13 (headless) | Linux | [🌐](https://github.com/Trq-Builds/Doc-Technique-installation-Debian-13-sans-interface-graphique) |
-| Supervision réseau ︲ Zabbix + Grafana | Linux / Monitoring | [🌐](https://github.com/Trq-Builds/Doc-Technique-Superviser-Un-Reseau-Avec-Zabbix-et-Grafana) |
-| GLPI | ITSM | [🌐](https://github.com/Trq-Builds/GLPI) |
-| TP Des serveurs aux services | Infrastructure | [🌐](https://github.com/Trq-Builds/TP-Des-serveurs-aux-services) |
-| CEJMA TP1 & TP2 | Réseau | [🌐](https://github.com/Trq-Builds/TP1-TP2-CEJMA) |
-
----
-
 ## `  ⚪  `︲Stack & Outils
 
 ```text
