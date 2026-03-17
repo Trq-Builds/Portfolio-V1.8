@@ -11,12 +11,12 @@ Show Contacts
 Email
 
 Phone
-+1 (213) 352-2795
+
 
 Birthday
-Mars 7, 2006
 
 Location
+
 France
 
 # navbar
