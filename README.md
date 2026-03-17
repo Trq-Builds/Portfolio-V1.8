@@ -52,7 +52,7 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## `  ⚫  ` CSS ︲ Points notables
+## `  ⚫  `︲CSS  Points notables
 
 - **Custom Properties** : Palette dual-mode (`--bg-body`, `--accent-color`, etc.), shadows neumorphiques paramétrées par mode.
 - **Bascule Thème** : Via `body.dark-mode` uniquement ︲ aucune duplication de règles.
