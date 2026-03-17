@@ -1,4 +1,4 @@
-# Portfolio V1.8 — Tariq LAABOUDI
+# Portfolio V1.8 ︲ Tariq LAABOUDI
 
 <p align="center">
   <img src="https://img.shields.io/website?url=https://tariq-laab.netlify.app&label=deploy&style=for-the-badge">
@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/BTS_SIO-SISR_E5_2026-8E95E1?style=for-the-badge">
 </p>
 
-**Auteur :** `Trq-Builds` — **Live :** https://tariq-laab.netlify.app  
+**Auteur :** `Trq-Builds` ︲ **Live :** https://tariq-laab.netlify.app  
 **Fork base :** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
 
 ---
@@ -44,10 +44,10 @@ SPA statique. Aucun framework. Rendu DOM intégralement piloté par `main.js` à
 
 ---
 
-## CSS — Points notables
+## CSS ︲ Points notables
 
 - Custom Properties complètes : palette dual-mode (`--bg-body`, `--accent-color`, `--brand`…), shadows neumorphiques paramétrées par mode
-- Bascule dark/light par `body.dark-mode` uniquement — zéro duplication de règles
+- Bascule dark/light par `body.dark-mode` uniquement ︲ zéro duplication de règles
 - Responsive : mobile-first, breakpoints `580px / 1024px / 1250px`, sidebar sticky sur wide
 - `@keyframes fade` + `scaleUp` sur les transitions de page/projet
 
@@ -65,7 +65,7 @@ Aucun build step. Assets servis statiquement. Deploy déclenché sur chaque push
 
 ---
 
-## SISR Lab — Documentation Technique (E5)
+## SISR Lab ︲ Documentation Technique (E5)
 
 Projets documentés en Markdown, hébergés sur GitHub :
 
@@ -76,7 +76,7 @@ Projets documentés en Markdown, hébergés sur GitHub :
 | Installation Windows Server 2025 | Windows | [→](https://github.com/Trq-Builds/Doc-Technique-Installation-Windows-Server-2025) |
 | Installation Windows 11 | Windows | [→](https://github.com/Trq-Builds/Doc-Technique-Installation-Windows-11) |
 | Installation Debian 13 (headless) | Linux | [→](https://github.com/Trq-Builds/Doc-Technique-installation-Debian-13-sans-interface-graphique) |
-| Supervision réseau — Zabbix + Grafana | Linux / Monitoring | [→](https://github.com/Trq-Builds/Doc-Technique-Superviser-Un-Reseau-Avec-Zabbix-et-Grafana) |
+| Supervision réseau ︲ Zabbix + Grafana | Linux / Monitoring | [→](https://github.com/Trq-Builds/Doc-Technique-Superviser-Un-Reseau-Avec-Zabbix-et-Grafana) |
 | GLPI | ITSM | [→](https://github.com/Trq-Builds/GLPI) |
 | TP Des serveurs aux services | Infrastructure | [→](https://github.com/Trq-Builds/TP-Des-serveurs-aux-services) |
 | CEJMA TP1 & TP2 | Réseau | [→](https://github.com/Trq-Builds/TP1-TP2-CEJMA) |
@@ -98,8 +98,8 @@ Docs       : Markdown natif
 
 ## Backlog
 
-- `[ ]` Module **Veille informatique** — structuration et rédaction
-- `[ ]` Module **Certifications** — enrichissement contenu
+- `[ ]` Module **Veille informatique** ︲ structuration et rédaction
+- `[ ]` Module **Certifications** ︲ enrichissement contenu
 - `[ ]` Ajout TP-DNS, TP-KALI, TP-DHCP dans le portfolio
 
 ---
