@@ -65,7 +65,7 @@ Local Dev ──► Git Push ──► GitHub (Source)
                      CDN + HTTPS + tariq-laab.netlify.app
 ```
 
-**Zéro automatisation.** Déploiement déclenché manuellement via la CLI Netlify après validation locale. Aucun build step, intégrité des assets garantie.
+**Zéro automatisation.** Déploiement déclenché manuellement via la CLI Netlify après validation locale.
 
 ---
 
