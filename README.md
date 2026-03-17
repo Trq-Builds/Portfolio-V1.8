@@ -1,4 +1,4 @@
-# `  ⚫  ` `  ⚪  ` Portfolio V1.8 ︲ Tariq LAABOUDI
+# `  ⚫  `︲`  ⚪  ` Portfolio V1.8 Tariq LAABOUDI
 
 <p align="center">
 Monochrome - Lavande
