@@ -12,7 +12,7 @@
 
 ` 🌐 `︲**Live :** https://tariq-laab.netlify.app
 
-**Fork base :** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
+` 🟣 `︲**Fork base :** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
 
 ---
 
