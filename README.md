@@ -8,7 +8,10 @@
   <img src="https://img.shields.io/badge/BTS_SIO-SISR_E5_2026-8E95E1?style=for-the-badge">
 </p>
 
-**Auteur :** `Trq-Builds` ︲ **Live :** https://tariq-laab.netlify.app  
+**Auteur :** `Trq-Builds`
+
+**Live :** https://tariq-laab.netlify.app
+
 **Fork base :** [codewithsadee/vcard-personal-portfolio](https://github.com/codewithsadee/vcard-personal-portfolio)
 
 ---
