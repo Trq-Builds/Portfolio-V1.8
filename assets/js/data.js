@@ -364,10 +364,106 @@ export const portfolioData = [
   },
 ];
 
+// ========== STAGE ==========
+export const stageData = [
+  {
+    company: "Eursocan",
+    date: "2025",
+    role: "Technicien informatique",
+    missions: [
+      "Accueil et diagnostic client — identification des pannes hardware et software",
+      "Dépannage PC : remplacement de composants, réinstallation OS, récupération de données",
+      "Gestion logistique : réception, inventaire et suivi du matériel",
+      "Rédaction de fiches d'intervention et comptes-rendus techniques"
+    ]
+  },
+  {
+    company: "RPM Multimédia",
+    date: "2023",
+    role: "Technicien maintenance",
+    missions: [
+      "Maintenance préventive et corrective — PC fixes et portables",
+      "Réparation de composants électroniques et soudure de base",
+      "Support client : explication des interventions et conseils d'usage",
+      "Nettoyage et reconditionnement de machines avant revente"
+    ]
+  }
+];
 
-
-
-
-
-
-
+// ========== VEILLE INFORMATIQUE ==========
+export const veilleData = [
+  {
+    title: "Sécurité & Cybersécurité",
+    icon: "shield-checkmark-outline",
+    items: [
+      {
+        name: "The Hacker News",
+        description: "CVE critiques, ransomware, zero-day. Lecture quotidienne.",
+        link: "https://thehackernews.com/"
+      },
+      {
+        name: "CERT-FR",
+        description: "Bulletins officiels ANSSI — alertes et avis sur les systèmes en environnement pro français.",
+        link: "https://www.cert.ssi.gouv.fr/"
+      },
+      {
+        name: "CVE Details",
+        description: "Base de données des vulnérabilités connues avec score CVSS — utile avant d'appliquer un patch.",
+        link: "https://www.cvedetails.com/"
+      }
+    ]
+  },
+  {
+    title: "Systèmes & Réseaux",
+    icon: "server-outline",
+    items: [
+      {
+        name: "IT-Connect",
+        description: "Ressource francophone sur Active Directory, Windows Server, Linux et virtualisation.",
+        link: "https://www.it-connect.fr/"
+      },
+      {
+        name: "Korben",
+        description: "Outils open source, sécurité et culture hacker. Ton direct, pas de remplissage.",
+        link: "https://korben.info/"
+      },
+      {
+        name: "Phoronix",
+        description: "Benchmarks kernel Linux, drivers GPU open source (Mesa, RADV) et évolutions des dépôts majeurs.",
+        link: "https://www.phoronix.com/"
+      }
+    ]
+  },
+  {
+    title: "Hardware",
+    icon: "hardware-chip-outline",
+    items: [
+      {
+        name: "Serve The Home",
+        description: "NAS, mini-PC, cartes réseau et matériel serveur. Suivi de l'écosystème ARM/RISC-V pro.",
+        link: "https://www.servethehome.com/"
+      },
+      {
+        name: "Tom's Hardware",
+        description: "Benchmarks et reviews CPU/GPU — suivi des sorties en temps réel.",
+        link: "https://www.tomshardware.com/"
+      }
+    ]
+  },
+  {
+    title: "Open Source",
+    icon: "code-slash-outline",
+    items: [
+      {
+        name: "GitHub Trending",
+        description: "Dépôts qui montent — détecter les nouveaux outils avant qu'ils ne deviennent mainstream.",
+        link: "https://github.com/trending"
+      },
+      {
+        name: "LWN.net",
+        description: "Journal hebdo sur le noyau Linux et l'open source. Niveau technique élevé.",
+        link: "https://lwn.net/"
+      }
+    ]
+  }
+];

@@ -28,9 +28,10 @@
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
-        <figure class="avatar-box">
-          <img src="" alt="Avatar" width="80" loading="lazy">
-        </figure>
+       <figure class="avatar-box" id="avatarTrigger" role="button" tabindex="0" aria-label="Profil">
+  <img src="" alt="Avatar" width="80" loading="lazy">
+</figure>
+<div class="avatar-bubble" id="avatarBubble" aria-live="polite"></div>
 
         <div class="info-content">
           <h1 class="name" title=""></h1>
@@ -105,7 +106,9 @@
         </header>
         <section class="tools">
           <p class="section-text">
-            Outils et ressources que j’utilise au quotidien pour m’aider à organiser mon travail et avancer sur mes projets informatiques. Rien d’exceptionnel, simplement quelques solutions qui me rendent service. Je partage ici, quelques petites pépites informatiques qui me sont utiles.
+            Outils et ressources que j’utilise au quotidien pour m’aider à organiser mon travail et avancer sur mes
+            projets informatiques. Rien d’exceptionnel, simplement quelques solutions qui me rendent service. Je partage
+            ici, quelques petites pépites informatiques qui me sont utiles.
           </p>
           <ul class="tools-list"></ul>
         </section>
@@ -131,7 +134,9 @@
         </header>
         <section class="tools">
           <p class="section-text">
-            Aperçu de mon setup hardware — le PC, les périphériques et le matériel que j’utilise au quotidien. Rien de très extraordinaire, simplement l’équipement qui m’accompagne dans mon travail. Plus bas, je passe brièvement en revue le matériel ainsi que quelques spécifications.
+            Aperçu de mon setup hardware — le PC, les périphériques et le matériel que j’utilise au quotidien. Rien de
+            très extraordinaire, simplement l’équipement qui m’accompagne dans mon travail. Plus bas, je passe
+            brièvement en revue le matériel ainsi que quelques spécifications.
           </p>
           <ul class="materiel-list tools-list"></ul>
         </section>
@@ -162,24 +167,24 @@
     if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark-mode');
 
     themeToggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-  localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+      document.body.classList.toggle('dark-mode');
+      localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
 
-  const avatar = document.querySelector('.avatar-box img');
-  if (avatar) {
-    avatar.src = document.body.classList.contains('dark-mode')
-      ? './assets/images/avatar-dark.webp'
-      : './assets/images/avatar-light.webp';
-  }
+      const avatar = document.querySelector('.avatar-box img');
+      if (avatar) {
+        avatar.src = document.body.classList.contains('dark-mode')
+          ? './assets/images/avatar-dark.webp'
+          : './assets/images/avatar-light.webp';
+      }
 
-   // Ajout favicon switch
-  const favicon = document.getElementById('favicon');
-  if (favicon) {
-    favicon.href = document.body.classList.contains('dark-mode')
-      ? './assets/images/logo-dark.ico'
-      : './assets/images/logo-light.ico';
-  }
-})
+      // Ajout favicon switch
+      const favicon = document.getElementById('favicon');
+      if (favicon) {
+        favicon.href = document.body.classList.contains('dark-mode')
+          ? './assets/images/logo-dark.ico'
+          : './assets/images/logo-light.ico';
+      }
+    })
 
     themeToggle.addEventListener('mouseenter', () => {
       themeToggle.style.transform = 'scale(1.12) rotate(8deg)';
