@@ -91,6 +91,7 @@ IA         : Claude Sonnet · GPT-5.1 · Gemini 3.0 Pro
 ## `  ⚫  `︲Backlog
 
 - [ ] Module **Veille informatique** ︲ Structuration et rédaction.
+- [ ] Module **Stage** ︲ Structuration et rédaction.
 - [ ] Module **Certifications** ︲ Enrichissement contenu.
 - [ ] Ajout TP-DNS, TP-KALI, TP-DHCP dans le portfolio.
 
