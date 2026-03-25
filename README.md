@@ -84,13 +84,13 @@ Local Dev ──► Git Push ──► GitHub (Source)
 Frontend   : HTML5 · CSS3 Custom Properties · JS ES6+ Modules
 Hosting    : Netlify (Manual Deploy - HTTPS)
 Versioning : Git / GitHub
-IDE        : VSCodium · Monochromator Dark plain
-IA         : Claude Sonnet · GPT-5.1 · Gemini 3.0 Pro
+IDE        : VSCodium · (Monochromator Dark plain)
+IAs         : Claude Sonnet · GPT-5.1 · Gemini 3.0 Pro
 ```
 
 ---
 
-## `  ⚫  `︲Backlog
+## `  ⚫  `︲Backlogs
 
 - [ ] Module **Veille informatique** ︲ Structuration et rédaction.
 - [ ] Module **Stage** ︲ Structuration et rédaction.
